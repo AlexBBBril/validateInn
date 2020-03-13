@@ -1,4 +1,4 @@
-const validateInn = (rule: ValidKey, value: string, callback: any): void => {
+const validateInn = (value: string, callback: any): void => {
   const coefficient10 = [2, 4, 10, 3, 5, 9, 4, 6, 8];
   const coefficient11 = [7, 2, 4, 10, 3, 5, 9, 4, 6, 8];
   const coefficient12 = [3, 7, 2, 4, 10, 3, 5, 9, 4, 6, 8];
